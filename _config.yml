@@ -30,16 +30,46 @@ jekyll-archives:
   permalinks:
     month: '/:year/:month/'
     category: '/category/:name/'
-paginate: 5
+pagination: 
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 5
+  permalink: '/page:num/'
+  title: ':title - page :num'
+  limit: 10
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  trail: 
+    before: 2
+    after: 2
+  extension: html
+  indexpage: 'index'
 
 
 # Build settings
-source: /media/xander4/DATA/13-SWIRLING/
-destination: /home/andy/sites/www.grange85.co.uk/swirling/
 version: 3.0.1
 port: 4050
 markdown: kramdown
-exclude:  
-  - Gemfile
-  - Gemfile.lock
+plugins: [
+        jekyll-feed,
+        bootstrap-sass,
+        jekyll-archives,
+        jekyll-paginate-v2
+        ]
+        
+exclude: [
+    '_notes',
+    'Gemfile',
+    'Gemfile.lock',
+    'Rakefile',
+    '.sass-cache',
+    '.git',
+    's3cfg-prog',
+    's3cfg-prog.enc',
+    'config'
+  ]
+keep_files:
+  - images
 excerpt_separator: <!--more-->
