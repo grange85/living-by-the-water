@@ -1,0 +1,47 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Everything's swirling</h3>
+  </div>
+  <div class="panel-body">
+    <ul>
+      <li><a href="{{ site.baseurl }}/about/">About</a>
+      <li><a href="http://twitter.com/grange85/">Twitter / @grange85</a></li>
+      <li><a href="http://instagram.com/grange85/">Instagram / @grange85</a></li>
+      <li><a href="https://www.facebook.com/grange85">Facebook</a></li>
+      <li><a href="http://www.fullofwishes.co.uk">A Head Full of Wishes</a></li>
+      <li><a href="http://twitter.com/ahfow/">Twitter / @ahfow</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Categories</h3>
+  </div>
+  <div class="panel-body">
+    <ul>
+      {% assign allcategories = site.categories | sort %}
+      {% for category in allcategories %}
+        <li><a href="{{ category | first | slugify | prepend: '/category/' | prepend: site.baseurl }}">{{ category | first }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Archives</h3>
+  </div>
+  <div class="panel-body">
+    <select id="archives-dropdown-5" name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+      <option value="">Select Month</option>
+      {% for archive in site.archives %}{% if archive.type == "month" %}{% capture newarchive %}{{newarchive}}|{{archive.url}}{% endcapture %}{% endif %}{% endfor %}
+      {% capture newarchive %}{{newarchive | remove_first: '|'}}{% endcapture %}
+      {% assign myarchives = newarchive | split: '|' | sort %}
+      {% for archive in myarchives %}
+        <option value="{{ archive | prepend: site.baseurl }}"> {{ archive | remove_first: '/' | replace: '/','-' | append: '01'  | date: '%B %Y' }} </option>
+      {% endfor %}
+    </select>
+  </div>
+</div>

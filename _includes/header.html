@@ -1,0 +1,14 @@
+<header class="site-header">
+	<div class="container">
+		<div class="jumbotron">
+			<h1>
+				{% if paginator.page == 1 %}
+					{{ site.title }}
+				{% else %}
+					<a href="{{ site.baseurl }}/">{{ site.title }}</a>
+				{% endif %}
+			</h1>
+			</div>
+	</div><!-- /.container -->
+</header>
+		
