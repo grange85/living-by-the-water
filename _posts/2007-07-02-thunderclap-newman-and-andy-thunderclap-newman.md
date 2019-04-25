@@ -33,7 +33,7 @@ But for all that, for the occasional smile it solicited and for an audience brim
 
 Of course everyone knows Something in the Air - but being a one-hit-wonder generally means that the only real connection you have with the band is via that one hit. For me, however, there were a couple of other things that linked from my record collection (and my past) to Thunderclap Newman...
 
- 1. Speedy Keen was the producer of Mot&ouml;rhead
+ 1. Speedy Keen was the producer of Mot&ouml;rhead's first album Mot&ouml;rhead
  2. Jimmy McCulloch was in the Venus and Mars era version of Wings
 
 Sadly I never took my camera along so no pictures or video clips from me (although there were plenty of cameras in attendance) so instead this'll have to do and you'll have to imagine Andy is 38 years older...
