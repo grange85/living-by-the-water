@@ -34,4 +34,5 @@ notifications:
         on_failure: always
 
 after_deploy:
-    aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/swirling/*"
+ - aws s3 cp --content-type "text/xml" --metadata-directive REPLACE s3://www.grange85.co.uk/swirling/feed.xml s3://www.grange85.co.uk/swirling/feed 
+ - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/swirling/*"
