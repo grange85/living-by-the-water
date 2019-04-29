@@ -68,7 +68,8 @@ exclude: [
     '.git',
     's3cfg-prog',
     's3cfg-prog.enc',
-    'config'
+    'config',
+    'vendor'
   ]
 keep_files:
   - images
