@@ -16,6 +16,7 @@ categories:
  - Music
 tags:
  - calvin johnson
+longpost: true
 ---
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/grange85/47742071212/in/dateposted/" title="Calvin Johnson"><img src="https://live.staticflickr.com/65535/47742071212_21cf1b9b9f_c.jpg" width="800" height="600" alt="Calvin Johnson"></a>
 ### Last night I finally got to see that international treasure Calvin Johnson in London
