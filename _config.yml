@@ -47,6 +47,7 @@ pagination:
   extension: html
   indexpage: 'index'
 
+excerpt_separator: <!--more-->
 
 # Build settings
 version: 3.0.1
