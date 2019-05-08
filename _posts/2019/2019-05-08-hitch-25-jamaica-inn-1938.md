@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: "Hitch #25 - Jamaica Inn (1939)"
-imgurl: 
+imgurl: https://www.grange85.co.uk/swirling/images/hitch/jamaica-inn-publicity-photo.jpg
 author:
   display_name: Andy
   login: admin
