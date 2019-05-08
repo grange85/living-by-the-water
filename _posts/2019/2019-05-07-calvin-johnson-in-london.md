@@ -11,7 +11,7 @@ author:
   email: andy@grange85.co.uk
   url: http://www.grange85.co.uk
 date: 2019-05-07
-imageurl: https://farm2.staticflickr.com/1878/30669765338_21dd54e6d5_c.jpg
+imageurl: https://live.staticflickr.com/65535/47742071212_21cf1b9b9f_c.jpg
 categories:
  - Music
 tags:
