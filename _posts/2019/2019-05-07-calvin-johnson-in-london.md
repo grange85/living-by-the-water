@@ -21,14 +21,14 @@ longpost: true
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/grange85/47742071212/in/dateposted/" title="Calvin Johnson"><img src="https://live.staticflickr.com/65535/47742071212_21cf1b9b9f_c.jpg" width="800" height="600" alt="Calvin Johnson"></a>
 ### Last night I finally got to see that international treasure Calvin Johnson in London
 
-I've been a fan of Calvin, in all his many guises, for so many years - I remember borrowing a copy of Black Candy off Graham Linehan shortly after it was released - so this must have been around 1990 or so I guess. I'm not sure if this was my introduction to Beat Happening, but it does imply my Calvin love is getting on for being 30 years old!
+I've been a fan of Calvin, in all his many guises, for so many years - I remember borrowing a copy of Black Candy off Graham shortly after it was released - so this must have been around 1990 or so I guess. I'm not sure if this was my introduction to Beat Happening, but it does imply my Calvin love is getting on for being 30 years old!
 
-Which makes it baffling that in all that time I'd not managed to see him live until last night. And I almost missed that, I only found out about it on Friday and nabbed myself a ticket instantly. It helped that the show was happening in West London which gigs so rarely do these days. Bizarrely the venue was a small building attached to the former BBC building in White City - a building that once housed the BBC Club, and a staff dentists.
+Which makes it baffling that in all that time I'd not managed to see him live until last night. And I almost missed that, I only found out about it on Friday and nabbed myself a ticket instantly. It helped that the show was happening in West London which gigs so rarely do these days. Bizarrely the venue was a small circular structure attached to the former BBC building in White City - a building that once housed the BBC Club, and a staff dentists.
 
-Early on Monday evening I had booked to see a film at the BFI but it didn't seem likely to be a problem - the film woulod be finished by 8 and I should be able to get to White City before 9 and catch most of the show.
+Early on Monday evening I had booked to see a film at the BFI but it didn't seem likely to be a problem - the film would be finished by 8 and I should be able to get to White City before 9 and catch most of the show.
 <!--more-->
 
-I actually arrived a bit earlier than that and opening band [Rose Mercie](https://rosemerciemonofonus.bandcamp.com/) where in mid-set - making a rather lovely sounds - they're a four piece of young women from Paris and are well worth following up on.
+I actually arrived a bit earlier than that and opening band [Rose Mercie](https://rosemerciemonofonus.bandcamp.com/) where in mid-set - making a rather lovely sound - they're a four piece of young women from Paris and are well worth following up on.
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/grange85/32850904787/in/photostream/" title="The Catenary Wires"><img src="https://live.staticflickr.com/65535/32850904787_5ba8f6f673_c.jpg" width="800" height="601" alt="The Catenary Wires"></a>
 
@@ -38,7 +38,7 @@ After The Catenary Wires left the stage (by stage I mean the bit of floor being 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XOkkO3y3o3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-And we did adore - Calvin is unique, there is no one quite like him and as such can barely be described in words that would make you understand just how special he is. His tools are words, a droll humour, a sharp mind, a scratchy acoustic, and his limbs! The limbs are key and old videos on YouTube reveal have always been an important party of Calvin's world.
+And we did adore - Calvin is unique, and as such can barely be described in words that would make you understand just how special he is. His tools are words, a droll humour, a sharp mind, a scratchy acoustic, and his limbs! The limbs are key and old videos on YouTube reveal they have always been an important party of Calvin's world.
 
 The show was perfect, over too soon (following the "second rule of showbusiness, always leave them wanting more").
 
