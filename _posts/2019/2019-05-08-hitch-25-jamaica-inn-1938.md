@@ -19,15 +19,15 @@ tags: []
 
 ### I was worried that Hitchcock's last early British film might see him going it out with a whimper
 
-Coming after two absolute gems in [Young and Innocent]({{site.baseurl}}{% post_url 2018-03-04-hitch-23-young-and-innocent-1937 %}) and [The Lady Vanishes]({{site.baseurl}}{% post_url 2018-08-14-hitch-24-the-lady-vanishes-1938 %}) it's no wonder that it's practically a forgotten Hitch - but it's no whimper. 
-
+Coming after two absolute gems in [Young and Innocent]({{site.baseurl}}{% post_url 2018/2018-03-04-hitch-23-young-and-innocent-1937 %}) and [The Lady Vanishes]({{site.baseurl}}{% post_url 2018/2018-08-14-hitch-24-the-lady-vanishes-1938 %}) it's no wonder that it's practically a forgotten Hitch - but it's no whimper. 
+		
 It has a fabulous cast:
 
  - Maureen O'Hara is beautiful and has some fire
  - Charles Laughton can be relied upon to achieve what no other actor has - being effortlessly brilliant in ridiculously over-the-top, hammy roles (there's a fine line between a Laughton and a Blessed!)
  - Leslie Banks is wonderfully villainous and surprisingly effective in his grubbiness 
  - and even Robert Newton has some charm although he's no Donat or [Redgrave]({{site.baseurl}}
-{% post_url 2017-08-05-hitch-20-the-39-steps %}) (and to be fair the role isn't written with the charm of a Richard Hannay or Gilbert).
+{% post_url 2017/2017-08-05-hitch-20-the-39-steps %}) (and to be fair the role isn't written with the charm of a Richard Hannay or Gilbert).
 
 <figure class="aligncenter"><img src="{{site.baseurl}}/images/hitch/jamaica-inn-charles-laughton.jpg" class="img-responsive" /><figcaption>Jamaica Inn (1939)</figcaption></figure>
 
