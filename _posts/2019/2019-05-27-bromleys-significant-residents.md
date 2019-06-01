@@ -12,7 +12,7 @@ author_login: admin
 author_email: andy@grange85.co.uk
 date: 2019-05-27
 categories:
- - idle nonsense
+ - Idle nonsense
 tags:
  - H.G. Wells
  - Siouxsie Sioux
