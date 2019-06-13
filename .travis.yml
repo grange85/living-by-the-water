@@ -9,7 +9,7 @@ before_install:
   - gem install bundler
 
 
-script: bundle exec jekyll build --future
+script: bundle exec jekyll build
 
 # branch whitelist, only for GitHub Pages
 branches:
