@@ -39,7 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:type" content="website" />
 
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-<meta property="og:image" content="{% if ogimage %}{{ ogimage }}{% else %}{{site.image}}{% endif %}" />
+<meta property="og:image" content="{% if page:imgurl %}{{ page:imgurl }}{% else %}{{site.image}}{% endif %}" />
 
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
