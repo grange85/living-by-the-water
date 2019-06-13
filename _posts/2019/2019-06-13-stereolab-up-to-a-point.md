@@ -16,7 +16,9 @@ categories:
 tags:
  - stereolab
  - live music
-
+description: >
+  The problem last night was this was Stereolab coming back - and in my head
+  they were coming back from 1997 but in reality they were coming back from 2009.
 ---
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/grange85/48052192801/in/dateposted/" title="Stereolab - Shepherd&#x27;s Bush Empire"><img src="https://live.staticflickr.com/65535/48052192801_240c8c0bd5_c.jpg" width="800" height="533" alt="Stereolab - Shepherd&#x27;s Bush Empire"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
