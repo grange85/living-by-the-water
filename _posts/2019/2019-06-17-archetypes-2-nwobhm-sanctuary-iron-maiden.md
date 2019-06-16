@@ -27,7 +27,3 @@ I first saw Maiden in February 1981 on the Killers tour at The Guildford Civic H
 I only saw them two or three times after this - to be honest I think they lost a bit of what made them special when Paul DiAnno was sacked - although it was pretty much the right decision for the band. I never really got on with Dickinson's voice... also by 1983 NWOBHM was pretty much done for me.
 
 <figure class="caption aligncenter"><iframe width="560" height="315" src="https://www.youtube.com/embed/bbvip51V4IE" frameborder="0" allowfullscreen></iframe><figcaption class="caption-text">Iron Maiden - Sanctuary (1980  )</figcaption></figure>
-
-I could just as easily have chosen this:
-
-<figure class="caption aligncenter"><iframe width="560" height="315" src="https://www.youtube.com/embed/bR4gK6tmIvQ" frameborder="0" allowfullscreen></iframe><figcaption class="caption-text">Angel Witch - Angel Witch (1980)</figcaption></figure>
