@@ -29,4 +29,4 @@ Hopefully I'll remember how forgettable this is and not bother to wwatch it agai
 
 Source: DVD  
 Rating: 3/10  
-Hitchcock Zone: [Foreign Correspondent (1941)](https://the.hitchcock.zone/wiki/Foreign_Correspondent_(1940))
+Hitchcock Zone: [Mr and Mrs Smith (1941)](https://the.hitchcock.zone/wiki/Mr._%26_Mrs._Smith_(1941))
