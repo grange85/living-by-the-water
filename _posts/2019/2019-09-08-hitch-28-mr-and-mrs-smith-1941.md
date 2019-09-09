@@ -25,7 +25,7 @@ It's all pretty standard screwball fare, and like all screwballs it probably hel
 
 But then, the final third and the film becomes unbearable and with that it opens up the holes in the story so they're harder to turn a blind eye to. And then I start forgetting again - my memories of the last third of the film are mostly just wishing it would end.
 
-Hopefully I'll remember how forgettable this is and not bother to wwatch it again.
+Hopefully I'll remember how forgettable this is and not bother to watch it again.
 
 Source: DVD  
 Rating: 3/10  
