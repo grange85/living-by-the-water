@@ -19,7 +19,7 @@ tags: []
 Mr and Mrs Smith is a forgettable Hitchcock. I know this because I'd forgotten I'd seen it moderately recently. It's possibly not just a forgettable Hitchcock but forgettable *as* a Hitchcock.
 <figure class="aligncenter"><img src="https://thejar.hitchcock.zone/1000/Mr%20and%20Mrs%20Smith%20(1941)/0074.jpg" class="img-responsive" /><figcaption>Mr and Mrs Smith (1941)</figcaption></figure>
 
-The opening sequence is a hoot and sets up the relationship between Mr and Mrs Smith perfectly. Carole Lombard is wondeful here and in most of the rest of the film. And when the film loses its way - which it does so completely in the last third - at least there is Carole! Robert Montgomery is also pretty good for most of the film and Jack Carson is fun in his little role. The rest of the cast are forgettable.
+The opening sequence is a hoot and sets up the relationship between Mr and Mrs Smith perfectly. Carole Lombard is wonderful here and in most of the rest of the film. And when the film loses its way - which it does so completely in the last third - at least there is Carole! Robert Montgomery is also pretty good for most of the film and Jack Carson is fun in his little role. The rest of the cast are forgettable.
 <figure class="aligncenter"><img src="https://thejar.hitchcock.zone/1000/Mr%20and%20Mrs%20Smith%20(1941)/0615.jpg" class="img-responsive" /><figcaption>Mr and Mrs Smith (1941)</figcaption></figure>
 It's all pretty standard screwball fare, and like all screwballs it probably helps not to think too hard about things and just let the set-peices do their stuff. The opneing sequence; the *first date*; Ann and Jeff getting stuck on the parachute ride. 
 
