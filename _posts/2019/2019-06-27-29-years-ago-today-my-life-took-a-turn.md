@@ -12,8 +12,8 @@ author_login: admin
 author_email: andy@grange85.co.uk
 date: '2019-06-27'
 categories:
- - music
- - idle nonsense
+ - "Music"
+ - "Idle nonsense"
 tags: []
 ---
 <figure class="caption aligncenter"><iframe width="560" height="315" src="https://www.youtube.com/embed/ozeRVpP4T0Q?start=2302" frameborder="0" allowfullscreen></iframe><figcaption class="caption-text">Galaxie 500 - Subterania - 1990-06-27</figcaption></figure>
