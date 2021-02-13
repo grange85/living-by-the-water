@@ -50,7 +50,7 @@ pagination:
 excerpt_separator: <!--more-->
 
 # Build settings
-version: 3.0.1
+version: 4.2.0
 port: 4050
 markdown: kramdown
 plugins: [
@@ -70,7 +70,10 @@ exclude: [
     's3cfg-prog',
     's3cfg-prog.enc',
     'config',
-    'vendor'
+    'vendor',
+    'deploy.sh',
+    '_deploy',
+    '_cloudfront-distriution-id'
   ]
 keep_files:
   - images
