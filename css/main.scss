@@ -1,7 +1,9 @@
 ---
 ---
     
+@import "custom/variables";
 @import "bootstrap";
+@import "custom/base";
 
 /**
  * Images
@@ -45,7 +47,7 @@ audio {
 }
 
 .jumbotron {
-background-image: url("/images/vfsp-978-624.jpg");
+background-image: url($site-baseurl + "/images/vfsp-978-624.jpg");
 background-size: cover;
 min-height: 400px;
 position: relative;
