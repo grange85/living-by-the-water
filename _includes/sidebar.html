@@ -1,39 +1,39 @@
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Everything's swirling</h3>
+<div class="card">
+  <div class="card-header text-white bg-primary">
+    <h3>About us</h3>
   </div>
-  <div class="panel-body">
-    <ul>
-      <li><a href="{{ site.baseurl }}/about/">About</a>
-      <li><a href="http://twitter.com/grange85/">Twitter / @grange85</a></li>
-      <li><a href="http://instagram.com/grange85/">Instagram / @grange85</a></li>
-      <li><a href="http://twitter.com/moley75/">Twitter / @moley75</a></li>
-      <li><a href="http://instagram.com/moley75/">Instagram / @moley75</a></li>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><a href="{{ site.baseurl }}/about/">About</a>
+      <li class="list-group-item"><a href="http://twitter.com/grange85/">Twitter / @grange85</a></li>
+      <li class="list-group-item"><a href="http://instagram.com/grange85/">Instagram / @grange85</a></li>
+      <li class="list-group-item"><a href="http://twitter.com/moley75/">Twitter / @moley75</a></li>
+      <li class="list-group-item"><a href="http://instagram.com/moley75/">Instagram / @moley75</a></li>
     </ul>
   </div>
 </div>
 
 
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Categories</h3>
+<div class="card">
+  <div class="card-header text-white bg-primary">
+    <h3>Categories</h3>
   </div>
-  <div class="panel-body">
-    <ul>
+  <div class="card-body">
+    <ul class="list-group">
       {% assign allcategories = site.categories | sort %}
       {% for category in allcategories %}
-        <li><a href="{{ category | first | slugify | prepend: '/category/' | prepend: site.baseurl }}">{{ category | first }}</a></li>
+        <li class="list-group-item"><a href="{{ category | first | slugify | prepend: '/category/' | prepend: site.baseurl }}">{{ category | first }}</a></li>
       {% endfor %}
     </ul>
   </div>
 </div>
 
-<div class="panel panel-primary">
-  <div class="panel-heading">
+<div class="card">
+  <div class="card header text-white bg-primary">
     <h3 class="panel-title">Archives</h3>
   </div>
   <div class="panel-body">
-    <select id="archives-dropdown-5" name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+    <select class="form-control" id="archives-dropdown-5" name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
       <option value="">Select Month</option>
       {% for archive in site.archives %}{% if archive.type == "month" %}{% capture newarchive %}{{newarchive}}|{{archive.url}}{% endcapture %}{% endif %}{% endfor %}
       {% capture newarchive %}{{newarchive | remove_first: '|'}}{% endcapture %}
