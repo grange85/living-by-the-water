@@ -22,6 +22,6 @@ If there are bloggers you think we should know about please [do tell]({{ site.ba
 
 The title of the blog (and this post) is from an Anne Briggs song and, seemed appropriate because the Tyne and the North Sea seem to be so important to the history and culture of the area.
 
-{% ahfowvideo "7MUjHpoHUE0" "Anne Briggs - Living By The Water (1971)" %}
+{% ahfowvideo "7MUjHpoHUE0" "Anne Briggs - Living By The Water (1971)" "https://media.fullofwishes.co.uk/00-misc/pictures/sirens-three-the-british-library.jpg" %}
 
 And there...
