@@ -31,7 +31,7 @@
     <h3>Categories</h3>
   </div>
   <div class="card-body">
-    <ul class="list-group">
+    <ul class="list-group list-group-flush">
       {% assign allcategories = site.categories | sort %}
       {% for category in allcategories %}
         <li class="list-group-item"><a href="{{ category | first | slugify | prepend: '/category/' | prepend: site.baseurl }}">{{ category | first }}</a></li>
