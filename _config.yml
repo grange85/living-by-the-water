@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Everything's swirling
+title: Living by the water
 email: andy@grange85.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   It's what I am.
-baseurl: "/swirling" # the subpath of your site, e.g. /blog
+baseurl: "/living-by-the-water" # the subpath of your site, e.g. /blog
 url: "https://www.grange85.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: grange85
 github_username:  grange85
@@ -51,6 +51,7 @@ excerpt_separator: <!--more-->
 
 # Build settings
 version: 4.2.0
+host: 0.0.0.0
 port: 4050
 markdown: kramdown
 plugins: [
@@ -77,4 +78,3 @@ exclude: [
   ]
 keep_files:
   - images
-excerpt_separator: <!--more-->
