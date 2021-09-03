@@ -5,11 +5,6 @@
 				<ul class="list-unstyled">
 					<li>{{ site.title }}</li>
 					<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-					{% if site.twitter_username %}
-						<li>
-							Twitter: <a href="http://twitter.com/{{ site.twitter_username }}"><span class="username">{{ site.twitter_username }}</span></a>
-						</li>
-					{% endif %}
 				</ul>
 			</div>
 			<div class="col-md-4">
@@ -20,7 +15,5 @@
 		</div>
 	</div>
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="{{ "/js/jquery.fitvids.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/swirling.js" | prepend: site.baseurl }}"></script>
 
