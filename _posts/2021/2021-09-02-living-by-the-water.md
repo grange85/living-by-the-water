@@ -12,7 +12,12 @@ author:
 date: 2021-09-02
 imageurl:
 categories:
+ - music
 tags:
+ - anne briggs
+ - london
+ - tynemouth
+ - tyneside
 ---
 Hazel and I moved from Londom to the North East of England a couple of months back and we've missed almost nothing about it (so far).
 
