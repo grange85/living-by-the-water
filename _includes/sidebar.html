@@ -12,6 +12,7 @@
   </div>
 </div>
 
+<div class="card">
   <div class="card-header text-white bg-primary">
     <h3>Andy</h3>
   </div>
@@ -23,6 +24,7 @@
       <li class="list-group-item"><a href="https://www.fullofwishes.co.uk">A Head Full of Wishes</a></li>
     </ul>
   </div>
+</div>
 
 <div class="card">
   <div class="card-header text-white bg-primary">
@@ -39,11 +41,11 @@
 </div>
 
 <div class="card">
-  <div class="card header text-white bg-primary">
-    <h3 class="panel-title">Archives</h3>
+  <div class="card-header text-white bg-primary">
+    <h3>Archives</h3>
   </div>
-  <div class="panel-body">
-    <select class="form-control" id="archives-dropdown-5" name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+  <div class="card-body">
+    <select class="form-control" id="archives-dropdown" name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
       <option value="">Select Month</option>
       {% for archive in site.archives %}{% if archive.type == "month" %}{% capture newarchive %}{{newarchive}}|{{archive.url}}{% endcapture %}{% endif %}{% endfor %}
       {% capture newarchive %}{{newarchive | remove_first: '|'}}{% endcapture %}
