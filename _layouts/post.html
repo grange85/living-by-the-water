@@ -9,10 +9,10 @@ layout: default
 							        	{% else %}{{page.author.display_name}}
 							        	{% endif %}
 							        	 on {{ page.date | date: "%-d %B %Y" }}</p>
-							        {% if page.categories %}<p class="pull-left">in categories: </p>
+							        {% if page.categories %}<p class="pull-left">in categories:&nbsp; </p>
 							        <ul class="categories list-inline">
 								        {% for category in page.categories %}
-								        <li><a class="label label-primary" href="{{ site.baseurl }}/category/{{ category | slugify }}">{{ category }}</a></li>
+								        <li class="list-inline-item"><a class="badge badge-primary" href="{{ site.baseurl }}/category/{{ category | slugify }}">{{ category }}</a></li>
 								        {% endfor %}
 							        </ul>
 							        {% endif %}
