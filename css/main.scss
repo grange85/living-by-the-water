@@ -45,6 +45,7 @@ audio {
     background-color: $brand-primary;
 }
 
+/* Style site header - here */
 .jumbotron {
 background-image: url($site-baseurl + "/images/vfsp-978-624.jpg");
 background-size: cover;
@@ -52,13 +53,11 @@ min-height: 400px;
 position: relative;
 }
 
-.jumbotron h1 {
+.jumbotron h1, .jumbotron p {
     /* Fallback for web browsers that don't support RGBa */
-    background-color: rgb(255, 255, 255);
-    /* RGBa with 0.6 opacity */
-    background-color: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    bottom:0;
+    background-color: rgb(0, 117, 119);
+    /* RGBa with 0.2 opacity */
+    background-color: rgba(0, 117, 119, 0.2);
 }
 
 .jumbotron h1 a,
