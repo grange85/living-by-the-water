@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true 
 draft: false
+comments_id: 1
 sitemap: true
 title: Living by the water
 author:
