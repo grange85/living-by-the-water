@@ -1,118 +1,33 @@
-{% assign issues_repo = site.issues_repo %}
-{% assign issue_id = include.issue_id %}
-
-<section id="comments">
-  <div class="comment-actions">
-    <h2>Comments <span id="comments-count"></span></h2>
-    <a
-      class="button"
-      href="https://github.com/{{ issues_repo }}/issues/{{ issue_id }}"
-      >Post comment</a
-    >
+<section class="comments" id="comment-section">
+  <hr>
+  {% if site.data.comments[page.slug] %}
+  <!-- Existing comments -->
+  <div class="comments__existing">
+    <h2>Comments</h2>
+    {% assign comments = site.data.comments[page.slug] | where_exp: "item", "item.replying_to_uid == ''" %}
+    {% assign comments_by_date = comments | sort: 'date' | reverse %}
+    <!-- List main comments in reverse date order, newest first. List replies in date order, oldest first. -->
+    {% for comment in comments_by_date %}
+    {%- assign email           = comment.email %}
+    {%- assign name            = comment.name %}
+    {%- assign url             = comment.url %}
+    {%- assign date            = comment.date %}
+    {%- assign message         = comment.message %}
+    {%- assign uid             = comment._id %}
+    {% include comment.html is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message uid=uid %}
+    {% endfor %}
   </div>
-  <div id="comments-wrapper">
-    Loading...
+  {% endif %}
+
+  <!-- New comment form -->
+  <div id="respond" class="comment__new">
+    {% include comment_form.html %}
   </div>
 </section>
 
-<!-- Comments script -->
-<script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="{{ '/assets/main.js' | relative_url }}"></script>
+{% if site.reCaptcha.enabled %}
+<script src="https://www.google.com/recaptcha/api.js"></script>
+{% endif %}
 
-  const commentsSection = document.getElementById('comments');
-  const commentsWrapper = commentsSection.querySelector('#comments-wrapper');
-  const commentsCount = commentsSection.querySelector('#comments-count');
-  const commentsObserver = new IntersectionObserver((entries, self) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      fetchComments(); // this is the important part
-      self.unobserve(entry.target);
-    }
-  });
-}, { rootMargin: '200px 0px 0px 0px' });
-
-commentsObserver.observe(commentsSection);
-
-const fetchComments = async () => {
-  try {
-    const comments = await (await fetch(
-      'https://api.github.com/repos/{{ issues_repo }}/issues/{{ issue_id }}/comments'
-    )).json();
-    initRenderComments(comments);
-  } catch (e) {
-    commentsWrapper.innerHTML = `<p>Unable to retrieve the comments for this post.</p>`;
-  }
-}
-
-const loadScript = (src) => {
-  const scriptElement = document.createElement('script');
-  document.body.appendChild(scriptElement);
-
-  return new Promise((resolve) => {
-    scriptElement.onload = resolve;
-
-    // Important to register onload before setting src
-    scriptElement.src = src;
-  });
-const commentScripts = [
-  'https://unpkg.com/marked@0.3.6/marked.min.js',
-  'https://unpkg.com/dompurify@1.0.8/dist/purify.min.js',
-  'https://unpkg.com/dayjs@1.8.21/dayjs.min.js',
-  'https://unpkg.com/dayjs@1.7.8/plugin/relativeTime.js',
-];
-
-// Reminder: this gets called when the viewport intersects with the comments section
-const initRenderComments = async (comments) => {
-  if (!comments.length) {
-    commentsWrapper.innerHTML = `<p>No comments yet 👀 Be the first to post!</p>`;
-    return;
-  }
-
-  // Load all comment script dependencies async
-  await Promise.all(commentScripts.map((script) => loadScript(script)));
-  renderComments(comments);
-}
-}
-
-const renderComments = (comments) => {
-  // load the relativeTime plugin for dayjs so we can express dates relative to now
-  dayjs.extend(dayjs_plugin_relativeTime);
-
-  commentsCount.innerText = `(${comments.length})`;
-
-  const commentsList = document.createElement('ol');
-  commentsList.className = 'comments-list';
-  commentsList.setAttribute('aria-label', 'Comments on this blog post');
-
-  commentsList.innerHTML = comments
-  .sort((comment1, comment2) => {
-    return comment1.created_at < comment2.created_at ? 1 : -1;
-  })
-  .map(comment => {
-    const datePosted = dayjs(comment.created_at).fromNow();
-    const user = comment.user;
-    const body = DOMPurify.sanitize(marked(comment.body));
-    const postedByAuthor = comment.author_association === 'OWNER';
-    const edited = comment.created_at !== comment.updated_at;
-
-    return `<li class="comment">
-                <div class="commenter">
-                    <img src="${user.avatar_url}" alt="" aria-hidden="true" class="meta avatar" />
-                    <a
-                        href="https://github.com/${user.login}"
-                        class="meta username"
-                        >${user.login}</a
-                    >
-                    <div class="meta date-posted">commented <time datetime="${comment.created_at}">${datePosted}</time></div>
-                    ${postedByAuthor ? '<span class="meta tag author-badge">Author</span>' : ''}
-                    ${edited ? `<span class="meta comment-edited">Edited</span>` : ''}
-                </div>
-                <div class="comment-body">${body}</div>
-            </li>`;
-  })
-  .join('');
-
-  commentsWrapper.innerHTML = '';
-  commentsWrapper.appendChild(commentsList);
-}
-
-</script>
