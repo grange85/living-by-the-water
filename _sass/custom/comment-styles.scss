@@ -1,8 +1,9 @@
-// comment styles from
-// https://github.com/willymcallister/willymcallister.github.io/blob/fbc7f396fbe80186b1abc63e436ec509190c1b3a/assets/main.scss
-
 $base-font-size:    18px !default;
+$base-font-weight:  400 !default;
 $comment-font-size: 17px !default;
+$brand-color:       #1E72DC !default;
+$grey-color:        #757575 !default;
+$grey-color-light:  #959595 !default;
 
 
 //
@@ -10,35 +11,25 @@ $comment-font-size: 17px !default;
 //
 input, select, textarea, label, button {
 //    @extend body;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-        -moz-font-feature-settings: "kern" 1;
-        -o-font-feature-settings: "kern" 1;
-            font-feature-settings: "kern" 1;
-    font-kerning: normal;
+//  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+//  color: $text-color;
+//  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
 }
-
 fieldset {
     border: none;
     padding: 0;
 }
-
-// each staticman text field is wrapped in this div
 .textfield {
+    width: 420px;
     max-width: 100%;
     padding: 0.5rem 0;
 }
-
-// fields except the comment field get this class too
-// to keep them a reasonable size
-.narrowfield {
-    width: 420px;
-}
-
-.hp {
-    display: none;
-}
-
 textarea {
     vertical-align: top;
 }
@@ -46,6 +37,7 @@ textarea {
     border: 1px solid rgba(0,0,0,.12);
     padding: 4px 5px;
     width: 100%;
+    font-size: $comment-font-size; 
 }
 .notify-me, .g-recaptcha {
     padding: 0.5rem 0;
@@ -63,6 +55,7 @@ textarea {
     margin: 4px 0px 0px 0px;
 }
 button:hover {
+    background-color: $grey-color;
     color: white;
 }
 
@@ -75,23 +68,24 @@ button:hover {
     padding: 0px 0px 14px 0px;
 }
 .comment__author {
-}
-.comment__admin_tag {
-    background-color: rgb(187, 255, 187);
-    border-radius: 3px;
-    padding: 3px;
+    color: $grey-color;
 }
 .comment__date {
+    font-size: $small-font-size; 
 }
 .comment__body {
+    font-size: $comment-font-size; 
 }
 .comment__meta {
     text-align: left;
+    color: $grey-color;
+    font-size: $small-font-size;
 }
 .comments__existing {
     padding: 8px 0px 0px 0px;
 }
-.comment {
+.comment {  
+    border-top: 0px solid $grey-color-light;
     padding: 0px 0px 0px 0px;
     margin-bottom: 1em;
 }
@@ -99,7 +93,8 @@ button:hover {
     margin-left: 3em;
 }
 .comment__reply-link {
-    cursor: pointer;
+  color: $grey-color;
+  font-size: $small-font-size;
 }
 
 //
@@ -156,18 +151,4 @@ button:hover {
 .modal-title {
     margin-bottom: 0px;
 }
-
-.disabled {
-    input,
-    button,
-    textarea,
-    label {
-        pointer-events: none;
-        cursor: not-allowed;
-        filter: alpha(opacity=65);
-        box-shadow: none;
-        opacity: 0.65;
-    }
-}
-
 

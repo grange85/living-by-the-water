@@ -56,12 +56,12 @@ comments:
 
   # You may want a different set of "required fields". Staticman will
   # reject posts without all of these fields
-  requiredFields: ["name", "email", "message"]
+  requiredFields: ["name", "message"]
 
   # you are going to want reCaptcha set up, but for now leave it disabled because we need the API
   # bridge up and running in order to encrypt the secrets that go in this section
 
   reCaptcha:
-    enabled: true 
+    enabled: false 
     siteKey: 6LdQR0UcAAAAAKzAS7wPQ0WJdv63_tRuSNj5J3s2
     secret: t8tuFkXOFi/H9p4jT/UFODgjKhfLeE46J/awBkFSKCsgmkJmZTtnJWU+aPQ9OwvbHOtR+aiNtMI3oteIWc/l62npykYFBxG8oHJuzYgfOgzQOpYKcynyB63MJ4xaBW+nubCSIaJ9Vz49ucrCjkkgEq8gc0ebg7WQcfaQp6irjN2BZz/nGlnMG7wmXz9PTeB+/uVFcc6+0xr7ocFC2gzurvpX1JTMvirePJTn9LGEHtkV5cX/ePsM1XJ0Uk8Ka4751hTMcwMW4+E7tRcxhL0UJWwGzjYonXoIS+M9GzlvqOQpwl9Z9C2Av36yBN6chv7gjydtZcmDhUOQiekGII48em/pLr8P+A7WevnrAnQ/3Jwv7Rt2VYPq4tWzUtVCJxFN69msILdLKkIPlJgs6bhTIljLquxpygfNiC31k/CY7DtCXVhhJVcVENqBzThRkUVFPXwoKMPiIS+WvmwtnnMEpwsTqsnL8mDeacEk0dMVMZSh0pH6HUcpNF2J8ml6C7S9Zn+pz20WrAuh5xqVHIePlq/0YcSuoFfLtQQmLoMa1UCu9qm3jOqx7BCL0+/MS6D4++iySU1Wz3444h06zK5UVMjFeThzeWhEpy560R4TZDSlbvL5APU/1WBd+cGwmspwzXTgN/ELf7+Z4nevAJiBxu0ff7kPRbzh9zjEyymLfAo=
