@@ -3,8 +3,8 @@ layout: post
 status: publish
 published: true 
 draft: false
-comments_id: 1
 sitemap: true
+comments: true
 title: Living by the water
 author:
   display_name: Andy
