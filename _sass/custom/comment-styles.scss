@@ -10,9 +10,6 @@ $comment-font-size: 17px !default;
 //
 input, select, textarea, label, button {
 //    @extend body;
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
         -moz-font-feature-settings: "kern" 1;
@@ -49,7 +46,6 @@ textarea {
     border: 1px solid rgba(0,0,0,.12);
     padding: 4px 5px;
     width: 100%;
-    font-size: $comment-font-size;
 }
 .notify-me, .g-recaptcha {
     padding: 0.5rem 0;
@@ -67,7 +63,6 @@ textarea {
     margin: 4px 0px 0px 0px;
 }
 button:hover {
-    background-color: $grey-color;
     color: white;
 }
 
@@ -80,7 +75,6 @@ button:hover {
     padding: 0px 0px 14px 0px;
 }
 .comment__author {
-    color: $grey-color;
 }
 .comment__admin_tag {
     background-color: rgb(187, 255, 187);
@@ -88,21 +82,16 @@ button:hover {
     padding: 3px;
 }
 .comment__date {
-    font-size: $small-font-size;
 }
 .comment__body {
-    font-size: $comment-font-size;
 }
 .comment__meta {
     text-align: left;
-    color: $grey-color;
-    font-size: $small-font-size;
 }
 .comments__existing {
     padding: 8px 0px 0px 0px;
 }
 .comment {
-    border-top: 0px solid $grey-color-light;
     padding: 0px 0px 0px 0px;
     margin-bottom: 1em;
 }
@@ -110,8 +99,6 @@ button:hover {
     margin-left: 3em;
 }
 .comment__reply-link {
-    color: $grey-color;
-    font-size: $small-font-size;
     cursor: pointer;
 }
 
