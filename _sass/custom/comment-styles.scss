@@ -5,103 +5,10 @@ $brand-color:       #1E72DC !default;
 $grey-color:        #757575 !default;
 $grey-color-light:  #959595 !default;
 
-
-//
-// Staticman new comment form
-//
-input, select, textarea, label, button {
-//    @extend body;
-//  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-//  color: $text-color;
-//  background-color: $background-color;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
-  font-kerning: normal;
-}
-fieldset {
-    border: none;
-    padding: 0;
-}
-.textfield {
-    width: 420px;
-    max-width: 100%;
-    padding: 0.5rem 0;
-}
-textarea {
-    vertical-align: top;
-}
-.textfield__input {
-    border: 1px solid rgba(0,0,0,.12);
-    padding: 4px 5px;
-    width: 100%;
-    font-size: $comment-font-size; 
-}
-.notify-me, .g-recaptcha {
-    padding: 0.5rem 0;
-}
-.button {
-    background: rgba(158,158,158,.2);
-    box-shadow: 0 2px 2px 2px rgba(0,0,0,.14);
-    border: none;
-    border-radius: 2px;
-    padding: 4px 8px;
-    overflow: hidden;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    margin: 4px 0px 0px 0px;
-}
-button:hover {
-    background-color: $grey-color;
-    color: white;
-}
-
 .hp {
     display: none;
 }
 
-//
-// Staticman existing comments
-//
-.comments {
-}
-.comment__new {
-    padding: 0px 0px 14px 0px;
-}
-.comment__author {
-    color: $grey-color;
-}
-.comment__date {
-    font-size: $small-font-size; 
-}
-.comment__body {
-    font-size: $comment-font-size; 
-}
-.comment__meta {
-    text-align: left;
-    color: $grey-color;
-    font-size: $small-font-size;
-}
-.comments__existing {
-    padding: 8px 0px 0px 0px;
-}
-.comment {  
-    border-top: 0px solid $grey-color-light;
-    padding: 0px 0px 0px 0px;
-    margin-bottom: 1em;
-}
-.comment.child {
-    margin-left: 3em;
-}
-.comment__reply-link {
-  color: $grey-color;
-  font-size: $small-font-size;
-}
-
-//
 // Pop-up modal window for Staticman comments
 //
 .show-modal {
