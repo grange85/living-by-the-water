@@ -15,8 +15,8 @@ position: home
 
 
     <div class="row">
-        <div class="col-md-12">
-                <p class="byline">Posted by {{post.author.display_name}} on {{ post.date | date: "%-d %B %Y" }}</p>
+        <div class="col-md-12 border-bottom border-primary">
+                <p class="byline font-weight-bolder text-uppercase text-primary small">Posted by {{post.author.display_name}} on {{ post.date | date_to_long_string: "ordinal" }}</p>
                 {% if post.categories %}<p class="pull-left">in categories:&nbsp; </p>
                 <ul class="categories list-inline">
                 {% for category in post.categories %}
