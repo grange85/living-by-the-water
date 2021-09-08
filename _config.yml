@@ -3,7 +3,7 @@ email: livingbythewater@grange85.co.uk
 description: > 
   Hazel and Andy explore and discover the North East of England.
 baseurl: "/living-by-the-water" 
-url: "https://www.grange85.co.uk" # 
+url: "https://www.grange85.co.uk" 
 twitter_username: grange85
 github_username:  grange85
 permalink: /:year/:month/:day/:title/
