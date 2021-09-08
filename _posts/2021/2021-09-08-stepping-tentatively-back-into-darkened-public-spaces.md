@@ -22,7 +22,7 @@ Over the last few weeks Hazel and I took our first tentative steps back into pub
 
 
 **First up we saw the brilliant Summer of Soul at the Everyman in Newcastle.**
-{% ahfowimage "https://cdn.grange85.co.uk/images/everyman-newcastle-grange85.jpg" "Summer of Soul at The Everyman, Newcastle" %}
+{% ahfowimage "https://cdn.grange85.co.uk/images/everyman-newcastle-grange85.jpg" "Summer of Soul at The Everyman, Newcastle (photo: Andy)" "https://www.instagram.com/p/CScfmQjqzUi/" %}
 _Good points:_
  - The film (of course).
  - The seats were a sofa!
@@ -35,7 +35,7 @@ _Not so good points:_
  - The staff coming in mid-film to solicit orders for more coffee was just plain wrong. Once a film has started that's the last you should see of anyone until it's over!
 
 **Next it was the [Jam Jar in Whitley Bay](https://www.jamjarcinema.com/) to see the NTLive (not live) Follies**
-{% ahfowimage "https://cdn.grange85.co.uk/images/jam-jar-whitley-bay-moley75.jpg" "The Jam Jar in Whitley Bay" %}
+{% ahfowimage "https://cdn.grange85.co.uk/images/jam-jar-whitley-bay-moley75.jpg" "The Jam Jar in Whitley Bay (photo: Hazel)" "https://www.instagram.com/p/CTc4e8NImnb/" %}
 _Good points:_
  - Sondheim!
  - We were in the front row again but thankfully these were a comfortable distance from the screen.
