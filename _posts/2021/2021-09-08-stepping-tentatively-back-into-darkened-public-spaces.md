@@ -2,6 +2,7 @@
 layout: post
 status: publish
 published: true 
+comments: true
 draft: false
 sitemap: true
 title: Stepping tentatively back into darkened public spaces
