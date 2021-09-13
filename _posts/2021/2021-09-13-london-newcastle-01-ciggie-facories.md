@@ -21,7 +21,7 @@ tags:
 {% ahfowimage "https://cdn.grange85.co.uk/images/wills-newcastle.jpg" "W.D. & H.O. Wills cigarette factory, Newcastle" %}
 We cycled past the [Wills cigarette factory](https://en.wikipedia.org/wiki/Wills_Building) in Newcastle. It's a rather handsome, if a little ... plain, 1930s (although apparently 1940s!?) art-deco factory.
 
-Maybe it wouldn't be plain except I it's sharing a post with the frankly bonkers [Carreras cigarette factory](https://en.wikipedia.org/wiki/Carreras_Cigarette_Factory) in Camden, London.
+Maybe it wouldn't be plain except it's sharing a post with the frankly bonkers [Carreras cigarette factory](https://en.wikipedia.org/wiki/Carreras_Cigarette_Factory) in Camden, London.
 
 {% ahfowimage "https://cdn.grange85.co.uk/images/carreras-london.jpg" "Carreras Cigarette Factory (1928)" %}
 
