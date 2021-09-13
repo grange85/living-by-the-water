@@ -2,6 +2,7 @@
 layout: post
 status: publish
 published: true 
+comments: true
 draft: false
 sitemap: true
 title: "London / Newcastle #01 - ciggie factories"

@@ -31,6 +31,6 @@
 <meta property="og:type" content="website" />
 
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-<meta property="og:image" content="{% if page:imgurl %}{{ page:imgurl }}{% else %}{{site.image}}{% endif %}" />
+<meta property="og:image" content="{% if page.imageurl %}{{ page.imageurl }}{% else %}{{site.image}}{% endif %}" />
 
 </head>
