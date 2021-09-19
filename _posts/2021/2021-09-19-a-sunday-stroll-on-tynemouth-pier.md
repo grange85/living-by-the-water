@@ -2,6 +2,7 @@
 layout: post
 status: publish
 published: true 
+comments: true
 sitemap: true
 title: A Sunday stroll on Tynemouth Pier
 author:
