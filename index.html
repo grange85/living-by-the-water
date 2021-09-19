@@ -6,7 +6,6 @@ pagination:
 position: home
 ---
     {% for post in paginator.posts %}
-    {% unless post.draft %}
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
@@ -34,8 +33,6 @@ position: home
         </div>
         </div>
     </div>
-
-    {% endunless %}
     {% endfor %}
 
 <!-- Pagination links -->
