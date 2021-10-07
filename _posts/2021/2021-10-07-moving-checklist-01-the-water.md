@@ -12,7 +12,8 @@ author:
 date: 2021-10-07
 imageurl: https://cdn.grange85.co.uk/images/north-shields-river-tyne.jpg
 categories:
-  - Moving checklist
+ - Photos
+ - Moving checklist
 tags:
  - thames
  - tyne
