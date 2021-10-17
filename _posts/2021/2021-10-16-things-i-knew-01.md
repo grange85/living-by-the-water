@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true 
 sitemap: true
+comments: true
 title: "Things I Knew about the North East #01 - The Tygers of Pan Tang and Whitley Bay"
 author:
   display_name: Andy

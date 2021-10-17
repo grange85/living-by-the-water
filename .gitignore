@@ -155,3 +155,5 @@ _deploy
 # vi swap files
 *.swp
 *.pat
+*.swp
+*.swo
