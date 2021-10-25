@@ -28,7 +28,7 @@ Support was, however, mostly acoustic gentle folk - although it was provided by 
 
 {% ahfowimage "https://cdn.grange85.co.uk/images/lanterns-on-the-lake-2021-09-30-02.jpg" "Lanterns on The Lake - The Peacock, September 2021" %}
 
-Main act where [Lanterns on The Lake](https://www.lanternsonthelake.com/news) who I'd last seen ten years previously at [Truck Festival](https://www.flickr.com/photos/grange85/albums/72157627148400125) when they played before Dean Wareham. I bought a couple of albums on the back of that but have sort of lost touch since - not for any reasons except that sort of happens. Last night's show was a treat, low key, charming, with a nice, rich variety and some lovely noise and the sort of rock that I've missed.
+Main act were [Lanterns on The Lake](https://www.lanternsonthelake.com/news) who I'd last seen ten years previously at [Truck Festival](https://www.flickr.com/photos/grange85/albums/72157627148400125) when they played before Dean Wareham. I bought a couple of albums on the back of that but have sort of lost touch since - not for any reasons except that sort of happens. Last night's show was a treat, low key, charming, with a nice, rich variety and some lovely noise and the sort of rock that I've missed.
 
 {% ahfowimage "https://cdn.grange85.co.uk/images/lanterns-on-the-lake-2011-07-24-01.jpg" "Lanterns on The Lake - Truck Festival 2011" %}
 
