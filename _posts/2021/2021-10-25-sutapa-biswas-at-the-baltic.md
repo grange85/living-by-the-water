@@ -24,13 +24,13 @@ Shockingly we've been in the North East for over four months now and last weeken
 
 Floor 3 currently has a [fascinating exhibition by multi-media artist Sutapa Biswas](https://baltic.art/sutapa-biswas) (who I knew nothing about until I walked into the gallery). But it pushed a lot of my buttons (film, paintings, birds, India).
 
-The centrepiece of the exhibition is a 30 minute film "Lumen" that is a reflection on colonialism, migration, partition, upheaval and lots of themes that I probably didn't pick up on - it's a beuatifully filmed and framed monolgue interspersed with archive footage of India's colonial past. 
+The centrepiece of the exhibition is a 30 minute film "Lumen" that is a reflection on colonialism, migration, partition, upheaval and lots of themes that I probably didn't pick up on - it's a beautifully filmed and framed monolgue interspersed with archive footage of India's colonial past. 
 
 My mum grew up in pre- and  post-colonial India, coming to the UK in 1950 - so it was hard for me to not imagine the monologue being delievered by her. I have no idea if the experiences of the Biswas family bore any relation to that of my mum's - but can't believe that the sort of emotional and geographic upheaval both went through didn't have some similarity.
 
 {% ahfowvideo "dZbRZ9_FkSg" "Lumen (clip, 2021) - Sutapa Biswas" %}
 
-The exhibition has other works - and my more traditional eye was taken by Time Flies with it's beuatiful paintings of birds, some unfinished.
+The exhibition has other works - and my more traditional eye was taken by Time Flies with its beautiful paintings of birds, some unfinished.
 
 {% ahfowimage "https://cdn.grange85.co.uk/images/sutapa-biswas-baltic-01.jpg" "Time Flies - Sutapa Biswas, 2004..." %}
 
