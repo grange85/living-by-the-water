@@ -54,7 +54,7 @@ eos
           <a href="https://www.youtube.com/watch?v=#{ahfowvideo_url}" >
               <img src="#{ahfowvideo_thumbnail}" class="img-fluid sddefault opacity-3h4" />
           <figcaption class="figure-caption">
-            #{ahfowvideo_caption} <i class="fab fa-youtube"></i>
+            #{ahfowvideo_caption}
           </figcaption>
           </a>
         </figure>
