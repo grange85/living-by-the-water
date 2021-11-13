@@ -20,8 +20,7 @@ tags:
  - south shields
  - maps
 ---
-Andy and I visited the Discovery Museum which is housed in the former Co-operative Wholesale Society Headquarters for the Northern Region. It was a fascinating way to spend a couple of hours particularly in the galleries focusing on social history.
-
+Andy and I visited the [Discovery Museum](https://discoverymuseum.org.uk/) which is housed in the former Co-operative Wholesale Society Headquarters for the Northern Region. It was a fascinating way to spend a couple of hours particularly in the galleries focusing on social history.
 
 My favourite thing was the gigantic relief map (or model) made for the 1929 North East Coast Exhibition (described by Pathé as a miniature Wembley).
 
@@ -36,6 +35,4 @@ Here are a few sections running west to east.
 {% ahfowimage "http://cdn.grange85.co.uk/images/relief-map-dock.jpg" "Albert Edward Dock" %}
 
 {% ahfowimage "http://cdn.grange85.co.uk/images/relief-map-shields.jpg" " North and South Shields" %}
-
-
 
