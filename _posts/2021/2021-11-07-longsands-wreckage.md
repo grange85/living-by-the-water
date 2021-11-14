@@ -31,7 +31,7 @@ Not that actually getting any closer really helped me to figure out what this cy
 
 Turns out that this is the last remains of the [SS Sjövik that was wrecked](https://www.wrecksite.eu/wreck.aspx?203891) on the rocks 105 years ago.
 
-{% ahfowimage "http://cdn.grange85.co.uk/images/ss-sjovik-1916-10-20-yorkshire-post.jpg" "Yorkshire Post - 20th October 1916" %}
+{% ahfowimage "https://cdn.grange85.co.uk/images/ss-sjovik-1916-10-20-yorkshire-post.jpg" "Yorkshire Post - 20th October 1916" %}
 
 > SWEDISH STEAMER STRANDED
 >
