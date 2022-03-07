@@ -13,7 +13,14 @@ author:
 date: 2022-03-07
 imageurl: 
 categories:
+ - Cinema
+ - Entertainment
 tags:
+ - celia
+ - the star and shadow
+ - film
+ - australian cinema
+ - ann turner
 ---
 {% ahfowimage "/living-by-the-water/images/star-and-shadow-01.jpg" "The Star and Shadow" %}
 It really took us far too long to get to [The Star and Shadow](https://starandshadow.org.uk/), a volunteer run community cinema (and more), but then it's been hard to get back into the swing of things so ... I guess not a surprise.
