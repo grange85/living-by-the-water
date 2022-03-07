@@ -19,7 +19,7 @@ mkdir -p _deploy/_admin
 # upload to s3
 echo "sync content..."
 # s3cmd sync --guess-mime-type --no-mime-magic --delete-removed --exclude '.sass-cache' --exclude 's3cfg*' --exclude 'database/*' _deploy/ s3://www.fullofwishes.co.uk
-aws s3 sync --size-only --delete --exclude '.sass-cache' _deploy/ s3://www.grange85.co.uk/living-by-the-water/
+aws s3 sync --profile grange85 --size-only --delete --exclude '.sass-cache' _deploy/ s3://www.grange85.co.uk/living-by-the-water/
 
 # update the routing rules
 # echo "update routing rules..."
