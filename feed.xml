@@ -25,7 +25,7 @@ layout: null
      {% unless post.draft %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | replace : 'href="/', 'href="https://www.fullofwishes.co.uk/' | xml_escape }}
+        <description>{{ post.content | replace : 'src="/', 'src="https://www.grange85.co.uk/' | replace : 'href="/', 'href="https://www.grange85.co.uk/' | xml_escape }}
 
         {% unless post.content contains "<img" %}
         {% if post.imageurl contains ".jpg"  %}
