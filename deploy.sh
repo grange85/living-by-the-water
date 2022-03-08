@@ -26,8 +26,18 @@ aws s3 sync --profile grange85 --size-only --delete --exclude '.sass-cache' _dep
 # aws s3api put-bucket-website --bucket www.fullofwishes.co.uk --website-configuration file://config/routing-rules.json
 
 # upload media
+
+if [ -d "/home/andy/repos/grange85-media-cdn" ] 
+then
+echo "syncing media..."
+	aws s3 sync --profile grange85 s3://cdn.grange85.co.uk /home/andy/repos/grange85-media-cdn/
+	aws s3 sync --profile grange85 --size-only --delete --exclude '.sass-cache' /home/andy/repos/grange85-media-cdn/ s3://cdn.grange85.co.uk
+elif [ -d "/Users/aaldridge/Repos/grange85-cdn-upload" ]
+then
 echo "uploading media..."
-aws s3 sync --profile grange85 --size-only --delete --exclude '.sass-cache' /home/andy/repos/grange85-media-cdn/ s3://cdn.grange85.co.uk
+	aws s3 sync --profile grange85 --size-only /Users/aaldridge/Repos/grange85-cdn-upload/ s3://cdn.grange85.co.uk
+fi
+
 
 # invalidate cloudfront
 echo "invalidate cloudfont distribution..."
