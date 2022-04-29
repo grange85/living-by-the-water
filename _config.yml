@@ -34,7 +34,7 @@ pagination:
 
 # commenting system
 issues_repo: grange85/living-by-the-water
-staticman_url: https://living-by-the-water-bot.herokuapp.com/v2/entry/grange85/living-by-the-water/master/comments
+staticman_url: https://living-by-the-water-bot.herokuapp.com/v2/entry/grange85/living-by-the-water/main/comments
 
 excerpt_separator: <!--more-->
 
