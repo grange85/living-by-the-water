@@ -78,7 +78,7 @@ Gateshead reached the second round and put up a decent showing against Charlton
         <td>Gateshead</td>
         <td>6 - 2</td>
         <td>Bradford Park Avenue</td>
-        <td>FA Cup (Q3)</td>
+        <td>FA Cup (Q2)</td>
     </tr>
     <tr>
         <td>19th October</td>
