@@ -3,7 +3,7 @@ name: Deploy Living by the water
 on:
   push:
     branches:
-      - master
+      - main
 
 
 jobs:
