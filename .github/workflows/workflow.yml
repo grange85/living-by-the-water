@@ -5,7 +5,6 @@ on:
     branches:
       - main
 
-
 jobs:
   jekyll:
     runs-on: ubuntu-latest
@@ -33,4 +32,6 @@ jobs:
 
     - name: Sync output to S3
       run: |
-        aws s3 sync --size-only --delete --exclude '.sass-cache' _site s3://www.grange85.co.uk/living-by-the-water-test/
+        aws s3 sync --size-only --delete --exclude '.sass-cache' _site s3://www.grange85.co.uk/living-by-the-water/
+        aws cloudfront create-invalidation --no-cli-pager --distribution-id $CDN_DISTRIBUTION_ID_WWW --paths "/living-by-the-water/*"
+        aws cloudfront create-invalidation --no-cli-pager --distribution-id $CDN_DISTRIBUTION_ID_CDN --paths "/*"
