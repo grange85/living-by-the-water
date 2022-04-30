@@ -48,7 +48,6 @@ show_drafts: false
 future: false
 plugins: [
         jekyll-feed,
-        bootstrap-sass,
         jekyll-archives,
         jekyll-paginate-v2
         ]
