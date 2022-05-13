@@ -14,6 +14,7 @@ date: 2022-05-13
 imageurl: https://cdn.grange85.co.uk/images/tyne-ferry-grab.jpg
 categories:
  - Photos
+ - Video
 tags:
  - north shields
  - shields ferry
@@ -22,7 +23,6 @@ tags:
 ---
 I'm pretty sure I'll never get tired of river crossings by ferry so having the Shields Ferry on my doorstep is an absolute joy.
 {% ahfowimage "https://cdn.grange85.co.uk/images/tyne-ferry-grab.jpg" "The Shields Ferry" %}
-
 
 <figure class="figure text-center">
 <video width="800" height="450" controls>
