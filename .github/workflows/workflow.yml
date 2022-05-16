@@ -2,8 +2,6 @@ name: Deploy Living by the water
 
 on:
   workflow_dispatch:
-    branches:
-      - main
     inputs:
       tags:
         description: 'manual deploy'
