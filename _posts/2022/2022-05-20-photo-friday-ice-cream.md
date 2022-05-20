@@ -20,7 +20,7 @@ tags:
  - cullercoats
  - south shields
 ---
-Ice cream and the seaside are go together like a horse and carriage (as Sammy Cahn never said) - and since we now live next to the seaside we have probably had more ice cream than we really ought to have...
+Ice cream and the seaside go together like a horse and carriage (as Sammy Cahn never said) - and since we now live next to the seaside we have probably had more ice cream than we really ought to have...
 
 {% ahfowimage "https://cdn.grange85.co.uk/images/north-east-ice-cream-1.jpg" "Di Meos, and Longsands" %}
 {% ahfowimage "https://cdn.grange85.co.uk/images/north-east-ice-cream-2.jpg" "Ciacarelli, and Cullercoats" %}
